@@ -1,10 +1,20 @@
-- Bugs:
-- [ ] Trackpad tap to touch not working, must push left or right on trackpad
-- [ ] Boot in first time may stuck, trying to force shutdown the laptop and turn on again (90% work)
-- [ ] Airportitlwm is in Big Sur currently (Intel Wireless Card), if u need to upgrade or downgrade to mac version, please change it
-
-- Some features: 
-- [x] Add horndis to use android tethering (use USB to connect to android phone & toggle usb tethening will work)
-
-- Warning:
-- [ ] Should not copy exactly this efi folder to use another laptop (even same laptop but cpu is not coffee lake)
+- 0.7.0 Big Sur
+- Bugs
+-- Trackpad (touch to click not working but it can use by press right/left on the trackpad)
+-- Brightness key not working
+-- First boot may stuck (add "-v" in boot-arg may fix)
+- More info:
+-- Pickermode is "Builtin" (not a bug)
+- 0.8.0 Big Sur
+- Bugs
+-- Trackpad (touch to click not working but it can use by press right/left on the trackpad)
+- Changes
+-- Add Brightnesskey kext to fix brightness function key
+-- Add "-v" to boot-arg
+-- Use pickermode is External (follow opencore guide) to enable GUI on bootloader
+-
+- 0.8.0 Monterey
+- Bugs
+-- Same as Big Sur
+- Changes
+-- Add BlueToolFixUp kext to fix bootloop
