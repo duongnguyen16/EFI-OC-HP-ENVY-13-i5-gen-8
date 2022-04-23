@@ -1,0 +1,4 @@
+Sometimes backlight / stuck at apple logo at first boot
+Brightness key error (not work)
+Trackpad not work (Tap to click)
+
