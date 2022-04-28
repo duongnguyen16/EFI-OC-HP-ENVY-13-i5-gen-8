@@ -21,10 +21,10 @@
 > Sometime it occured backlight error while boot (you MUST force restart)
 - Changes
 > Add BlueToolFixUp kext to fix bootloop.
-> Change some settings in config.plist to avoid bugs in Monterey
-> Use SSDTTime to make custom SSDT
-> Change pickermode themes to Mordern
-> Mostly fix disk1s5, apfs, applekeystore error.
-> Turn off "-v", no command line exist while booting
+> Change some settings in config.plist to avoid bugs in Monterey \>
+> Use SSDTTime to make custom SSDT \>
+> Change pickermode themes to Mordern \>
+> Mostly fix disk1s5, apfs, applekeystore error. \>
+> Turn off "-v", no command line exist while booting \>
 
 - WARNING! DO NOT USE 0.X BIGSUR EFI FOR MONTEREY (Monterey have some changes that will make old versions cant boot)
