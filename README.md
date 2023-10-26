@@ -28,3 +28,7 @@
 > Turn off "-v", no command line exist while booting \>
 
 - WARNING! DO NOT USE 0.X BIGSUR EFI FOR MONTEREY (Monterey have some changes that will make old versions cant boot)
+
+**0.9.5 Sonoma**
+- Just update to 0.9.5, bugs like the old version
+- Test for sonoma, older version not tested yet.
